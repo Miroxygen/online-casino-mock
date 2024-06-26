@@ -11,7 +11,7 @@ interface HeaderProps {
 const Header: FC<HeaderProps> = ({ title, icon }) => {
   return (
     <header className="bg-green-600 text-white p-4 flex items-center justify-between">
-      <div className="flex items-center">
+      <div className="flex items-center object-center absolute right-[1100px]">
         <img src={icon} alt="icon" className="h-8 w-8 mr-2" />
         <h1 className="text-2xl font-bold">{title}</h1>
       </div>
